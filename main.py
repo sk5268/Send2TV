@@ -31,4 +31,4 @@ for file_path in files:
             print(f'Failed to upload, status code: {response.status_code}')
 
 te = time.time()
-print('Total Time: ', (ts-te)/60 , ' minutes')
+print('Total Time: ', (te-ts)/60 , ' minutes')
